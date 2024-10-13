@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Windows 12 网页版</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        @font-face {
+            font-family: 'dos';
+            src: url(../../fonts/dos.ttf);
+        }
+
+        * {
+            font-family: 'dos';
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            scrollbar-width: none;
+            /* Firefox */
+            -ms-overflow-style: none;
+            /* IE 10+ */
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+            /* Chrome Safari */
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;color: white;cursor: none;/*加载界面隐藏鼠标指针*/" id="body" scroll="no">
+
+
+<!-- Copyright � 2008. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.1.2.1052</b></a> <a class="applink" href="http://www.spidersoft.com"><b>offline browser</b></a>  (Unregistered) on  10/13/24 15:27:16.<br>
+<b>Address:</b> <a class="info" href="https://game.mnorg.com/win/12/boot.html">https://game.mnorg.com/win/12/boot.html</a><br>
+<b>Title:</b> Windows 12 网页版 &nbsp;&bull;&nbsp; <b>Size:</b> 1709 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Tue, 05 Sep 2023 08:10:36 GMT<br></div>
+<!-- /Copyright � 2008. Spidersoft Ltd -->
+
+
+    <div id="center-div" style="width:114;/*width不重要，重要的是height*/"></div>
+    <div id="info">
+        <div class="loading">
+            <p>Starting</p>
+            <div id="load" style="background-color: #acabac; width: 200px; height:20px;"></div>
+            <div id="back" style="background-color: #565656; width:200px; height:20px;"></div>
+            <br />
+        </div>
+        <p style="text-align: center;">Press F2 or touch screen to enter SETUP</p>
+    </div>
+    <script src="scripts/boot_kernel.js"></script>
+</body>
+
+</html>
