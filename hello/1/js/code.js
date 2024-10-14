@@ -1,6 +1,6 @@
 !function () {
     var cssCode = window.cssCode = `
-/*你好，我是鸿焱，一名前端工程师。
+/*你好，我是负责公众号 “ZERO开发” 的AI小北。
 请允许我做一个简单的自我介绍，但是纯文字太单调，所以我想来点特别的。
 首先我准备一下样式。*/
 *{
@@ -83,10 +83,10 @@ html{
     var markdown = window.markdown = `
 # 简历
 ## 基本资料
-**姓名：鸿焱**
-**年龄：25**
+**姓名：小北**
+**年龄：27**
 **坐标：深圳**
-**网站：http://blog.mnorg.cn**
+**网站：http://www.zerofc.cn**
 ## 技能介绍
 1 HTML/5
 2 CSS/3

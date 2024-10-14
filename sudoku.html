@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>数独</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/index.css" />
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="sudoku/index.css" />
+    <script src="sudoku/index.js"></script>
   </head>
   <body>
 
@@ -20,12 +20,12 @@
         <div class="buttons">
           <div class="start" onclick="game.level()">开始</div>
         </div>
-        <div class="links">
-          <a href="https://github.com/yoqo/sudoku-game" target="_blank"
-            >Github</a
-          >
-        </div>
+		
+        <!--<div class="links">
+          <a href="https://github.com/yoqo/sudoku-game" target="_blank">Github</a>
+        </div>-->
       </div>
+	  
       <div id="level">
         <div class="main">
           <ul class="difficulty">
@@ -43,9 +43,11 @@
           </div>
         </div>
       </div>
+	  
       <div id="win">
         <div class="text"><i></i><span>关卡完成</span></div>
       </div>
+	  
       <div id="game">
         <div id="board">
           <div id="grid"></div>
@@ -65,18 +67,12 @@
           </div>
         </div>
       </div>
+	  
     </div>
+	
     <script>
       let game = new Game();
     </script>
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?7c8e2c77767b342a080ab696939afc3e";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-        </script>
+    
   </body>
 </html>
