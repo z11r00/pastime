@@ -1,13 +1,26 @@
-<html>
-<head><title>404 Not Found</title></head>
-<body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);#root,body,html {
+    height: 100%
+}
+
+body,html {
+    box-sizing: border-box
+}
+
+*,:after,:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Noto Sans TC,sans-serif;
+    font-size: 14px
+}
+
+*,:after,:before,:placeholder-shown {
+    font-family: inherit
+}
+
+/*# sourceMappingURL=main.f012863c.css.map*/

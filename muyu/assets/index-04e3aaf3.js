@@ -2357,7 +2357,7 @@ class J {
         this.howl && this.howl.play()
     }
 }
-const Lt = L('<a href="https://areschang.top" target="_blank"><span text-3xl font-bold color-transparent bg-clip-text="!">Ares Chang');
+const Lt = L('<a href="https://image-static.segmentfault.com/170/672/1706722225-666d5d93e0e9d_fix732" target="_blank"><span text-3xl font-bold color-transparent bg-clip-text="!">ZERO开发');
 function Et() {
     return ( () => {
         const r = Lt();
@@ -2513,7 +2513,7 @@ function Yt(r) {
     )()
 }
 X(["click"]);
-const Zt = L('<div w-100vw h-100vh px-6 md:px-10 py-4 md:py-6 text-center bg="#111" color-white flex="~ col" justify-between select-none overflow-hidden><header><div flex justify-between items-center><div text-2xl flex items-center gap-2><i i-carbon-music inline-block cursor-pointer></i><i i-carbon-settings inline-block cursor-pointer></i></div></div><div text-10rem font-bold transition-300></div><div color="#444" text-xl mt-2 font-bold>功德</div></header><main flex justify-center><img alt="WoodenFish" transition-300 cursor-pointer></main><footer color="#444"><div font-bold text-sm><div mb="1.5">按下<code>Space</code>或<code>Click</code>积攒功德</div><div>点击<code>右上角<i i-carbon-music inline-block text="0.6rem" v-middle ml="0.4"></i></code>开启/关闭 沉浸模式</div></div><div flex justify-between md:text-lg mt-6 font-bold><a href="https://www.github.com/ares-chang/wooden-fish" target="_blank" color="hover:#eee" flex items-center gap-1><i i-carbon-logo-github inline-block></i><span>GitHub</span></a><a href="https://www.github.com/ares-chang" color="hover:#eee">@AresChang')
+const Zt = L('<div w-100vw h-100vh px-6 md:px-10 py-4 md:py-6 text-center bg="#111" color-white flex="~ col" justify-between select-none overflow-hidden><header><div flex justify-between items-center><div text-2xl flex items-center gap-2><i i-carbon-music inline-block cursor-pointer></i><i i-carbon-settings inline-block cursor-pointer></i></div></div><div text-10rem font-bold transition-300></div><div color="#444" text-xl mt-2 font-bold>功德</div></header><main flex justify-center><img alt="WoodenFish" transition-300 cursor-pointer></main><footer color="#444"><div font-bold text-sm><div mb="1.5">按下<code>Space</code>或<code>Click</code>积攒功德</div><div>点击<code>右上角<i i-carbon-music inline-block text="0.6rem" v-middle ml="0.4"></i></code>开启/关闭 沉浸模式</div></div><div flex justify-between md:text-lg mt-6 font-bold><a href="https://pic1.zhimg.com/v2-72f07bbcb171f3a8942ca362ca400170_100w.jpg" target="_blank" color="hover:#eee" flex items-center gap-1><i i-carbon-logo-github inline-block></i><span>忍者疾风转</span></a><a href="https://oscimg.oschina.net/oscnet/up-d8dbe919b0ecb354f207e8e6216f1dc23a5.jpg" color="hover:#eee">实用工具箱')
   , [Me,Ke] = D(!1)
   , [Ut,Be] = D(!1)
   , te = Ct($.volume / 100)
